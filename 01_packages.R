@@ -1,0 +1,22 @@
+install.packages(c("tidyverse",
+                   "data.table",
+                   "pacman",
+                   "here",
+                   "apyramid",
+                   "rio",
+                   "dplyr",
+                   "stats",
+                   "tidyr",
+                   "reshape2",
+                   "linelist",
+                   "janitor",
+                   "lubridate",
+                   "aweek",
+                   "tsibble",
+                   "zoo",
+                   "forcats",
+                   "incidence2",
+                   "EpiCurve",
+                   "stringr"))
+
+pacman::p_install_gh("appliedepi/epirhandbook")
